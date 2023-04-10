@@ -1,10 +1,12 @@
 import React from 'react'
-
+import { Container, Row, Col } from 'react-bootstrap';
 const Navbar = () => {
   return (
-      <div>
-        
-    </div>
+    <nav>
+      <Container>
+
+      </Container>
+    </nav>
   )
 }
 
