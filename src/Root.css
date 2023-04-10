@@ -1,12 +1,3 @@
-*,
-*::after,
-*::before {
-    padding: 0;
-    margin: 0;
-    list-style-type: none !important;
-    text-decoration: none !important;
-    box-sizing: border-box;
-}
 
 /* font-family */
 .ff_Poppins {
