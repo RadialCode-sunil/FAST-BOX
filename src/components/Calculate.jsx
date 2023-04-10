@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Calculate = () => {
+export const Calculate = () => {
   return (
-    <div>Calculate</div>
+      <section>
+          <Container>
+              
+          </Container>
+ </section>
   )
 }
-
-export default Calculate
