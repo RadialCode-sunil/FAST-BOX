@@ -1,0 +1,168 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* font-family */
+.ff_Poppins {
+    font-family: 'Poppins';
+}
+
+.ff_Yantramanav {
+    font-family: 'Yantramanav';
+}
+
+/* root */
+:root {
+    /* font_size */
+    --fs-6xl: 90px;
+    --fs-5xl: 80px;
+    --fs-4xl: 48px;
+    --fs-3xl: 45px;
+    --fs-2xl: 30px;
+    --fs-xl: 25px;
+    --fs-lg: 22px;
+    --fs-md: 20px;
+    --fs-sm: 18px;
+    --fs-ss: 16px;
+
+
+
+    /* color */
+    --color-black: #000000;
+    --color-lightblack: #23262F;
+    --color-white: #FFFFFF;
+    --color-grey: #5A5F6A;
+    --color-grey90: #777E90;
+    --color-darkgreen: #204945;
+    --color-lightgreen: #3CBD96;
+    --color-lightgreen2: #E2F5EF;
+    --color-lightgreen3: #E3F9E7;
+    --color-lightgreen4: #C1EADD;
+
+
+
+}
+
+/* color */
+.black {
+    color: var(--color-black);
+}
+
+.lightblack {
+    color: var(--color-lightblack);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.grey {
+    color: var(--color-grey);
+}
+
+.grey90 {
+    color: var(--color-grey90);
+}
+
+.darkgreen {
+    color: var(--color-darkgreen);
+}
+
+.lightgreen {
+    color: var(--color-lightgreen);
+}
+
+.lightgreen2 {
+    color: var(--color-lightgreen2);
+}
+
+.lightgreen3 {
+    color: var(--color-lightgreen3);
+}
+
+.lightgreen4 {
+    color: var(--color-lightgreen4);
+}
+
+/* Bg-color */
+.bg_white {
+    background: var(--color-white);
+}
+
+.bg_lightgreen {
+    background: var(--color-lightgreen);
+}
+
+.bg_lightgreen3 {
+    background: var(--color-lightgreen3);
+}
+
+.bg_lightgreen2 {
+    background: var(--color-lightgreen2);
+}
+
+/* font_size */
+
+.fs_6xl {
+    font-size: var(--fs-6xl);
+}
+
+.fs_5xl {
+    font-size: var(--fs-5xl);
+}
+
+.fs_4xl {
+    font-size: var(--fs-4xl);
+}
+
+.fs_3xl {
+    font-size: var(--fs-3xl);
+}
+
+.fs_2xl {
+    font-size: var(--fs-2xl);
+}
+
+.fs_xl {
+    font-size: var(--fs-xl);
+}
+
+.fs_lg {
+    font-size: var(--fs-lg);
+}
+
+.fs_md {
+    font-size: var(--fs-md);
+}
+
+.fs_sm {
+    font-size: var(--fs-sm);
+}
+
+.fs_ss {
+    font-size: var(--fs-ss);
+}
+
+
+/* font-weight */
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
