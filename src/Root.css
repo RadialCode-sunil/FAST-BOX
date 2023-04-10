@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&family=Poppins:wght@400;500;600&family=Red+Hat+Text:wght@400;500;600&display=swap');
+
 *,
 *::after,
 *::before {
@@ -10,11 +12,15 @@
 
 /* font-family */
 .ff_Poppins {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
 }
 
-.ff_Yantramanav {
-    font-family: 'Yantramanav';
+.ff_Anybody {
+    font-family: 'Anybody', cursive;
+}
+
+.ff_Red_Hat {
+    font-family: 'Red Hat Text', sans-serif;
 }
 
 /* root */
@@ -51,43 +57,43 @@
 
 /* color */
 .black {
-    color: var(--color-black);
+    color: var(--color-black) !important;
 }
 
 .lightblack {
-    color: var(--color-lightblack);
+    color: var(--color-lightblack) !important;
 }
 
 .white {
-    color: var(--color-white);
+    color: var(--color-white) !important;
 }
 
 .grey {
-    color: var(--color-grey);
+    color: var(--color-grey) !important;
 }
 
 .grey90 {
-    color: var(--color-grey90);
+    color: var(--color-grey90) !important;
 }
 
 .darkgreen {
-    color: var(--color-darkgreen);
+    color: var(--color-darkgreen) !important;
 }
 
 .lightgreen {
-    color: var(--color-lightgreen);
+    color: var(--color-lightgreen) !important;
 }
 
 .lightgreen2 {
-    color: var(--color-lightgreen2);
+    color: var(--color-lightgreen2) !important;
 }
 
 .lightgreen3 {
-    color: var(--color-lightgreen3);
+    color: var(--color-lightgreen3) !important;
 }
 
 .lightgreen4 {
-    color: var(--color-lightgreen4);
+    color: var(--color-lightgreen4) !important;
 }
 
 /* Bg-color */

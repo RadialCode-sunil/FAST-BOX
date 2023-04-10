@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
-import { Navbar } from 'react-bootstrap';
+import Hero from './components/Hero';
+
 
 
 function App() {
   return (
     <div>
-      <Navbar />
+       <Hero/>
     </div>
   );
 }
