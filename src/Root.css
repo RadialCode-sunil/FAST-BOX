@@ -171,3 +171,45 @@
 .fw_400 {
     font-weight: 400;
 }
+
+@media (max-width:1440px) {
+
+    /* root */
+    :root {
+        /* font_size */
+        --fs-6xl: 70px;
+        --fs-5xl: 60px;
+        --fs-4xl: 45px;
+        --fs-3xl: 40px;
+        --fs-2xl: 29px;
+    }
+}
+
+@media (max-width:992px) {
+
+    :root {
+        /* font_size */
+        --fs-6xl: 60px;
+        --fs-5xl: 50px;
+        --fs-4xl: 42px;
+        --fs-3xl: 38px;
+        --fs-2xl: 28px;
+        --fs-xl: 23px;
+    }
+}
+@media (max-width:576px) {
+
+    :root {
+        /* font_size */
+        --fs-6xl: 45px;
+        --fs-5xl: 35px;
+        --fs-4xl: 28px;
+        --fs-3xl: 25px;
+        --fs-2xl: 22px;
+        --fs-xl: 20px;
+        --fs-lg: 18px;
+        --fs-md: 16px;
+        --fs-sm: 15px;
+        --fs-ss: 12px;
+    }
+}
