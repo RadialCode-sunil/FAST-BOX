@@ -12,8 +12,8 @@
 .calculate_box {
     background: #E3F9E7;
     border-radius: 46px;
-    height: 855px;
-    width: 1606px;
+    height: 100%;
+    padding: 71px 117px;
 }
 
 .booking_box {
@@ -34,6 +34,21 @@
     outline: none;
 }
 
-.calculate_hr{
+.calculate_hr {
     border: 1px solid rgba(119, 126, 144, 0.3);
+}
+
+.calculate_hr1 {
+    border-bottom: 1px solid rgba(119, 126, 144, 0.3);
+}
+
+.man_img {
+    bottom: -50px;
+    left: 70px;
+}
+
+@media (max-width:1200px) {
+    .calculate_box {
+        padding: 50px 70px;
+    }
 }

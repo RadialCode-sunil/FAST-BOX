@@ -5,27 +5,34 @@ export const Calculate = () => {
   return (
     <section>
       <Container>
-        <Row>
+        <div className='calculate_box position-relative'>
+        <Row className=''>
           <Col xs={12} lg={6}>
-            <div className=' calculate_box'>
-              <h1>Calculate your price</h1>
-              <p>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
-              <img className='' src={man_calculate} alt="" />
+            <div className='  '>
+              <h1 className=' ff_Anybody fw_700 fs_4xl darkgreen'>Calculate your price</h1>
+              <p className=' ff_Red_Hat fw_400 fs_lg grey90'>Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.</p>
+              <img className=' position-absolute man_img img-fluid d-none d-xl-block' src={man_calculate} alt="" />
+              <img className='w-100 d-xl-none' src={man_calculate} alt="" />
             </div>
           </Col>
-          <Col>
-            <div className='booking_box'>
+            <Col xs={12} lg={6}>
+            <div className='booking_box position-relative'>
               <div className=' d-flex align-items-center '>
                 <span className='date_box'>
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M21.975 2.52233H19.125V0.125H16.75V2.52233H7.25V0.125H4.875V2.52233H2.06347C1.0142 2.52233 0.163475 3.37305 0.163475 4.42233V21.975C0.163475 23.0243 1.0142 23.875 2.06347 23.875H21.975C23.0243 23.875 23.875 23.0243 23.875 21.975V4.42233C23.875 3.37305 23.0243 2.52233 21.975 2.52233ZM21.5 21.5H2.5V9.625H21.5V21.5ZM21.5 7.25H2.5V4.875H21.5V7.25Z" fill="white" />
+                  <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M28.975 9.52233H26.125V7.125H23.75V9.52233H14.25V7.125H11.875V9.52233H9.06347C8.0142 9.52233 7.16348 10.3731 7.16348 11.4223V28.975C7.16348 30.0243 8.0142 30.875 9.06347 30.875H28.975C30.0243 30.875 30.875 30.0243 30.875 28.975V11.4223C30.875 10.3731 30.0243 9.52233 28.975 9.52233ZM28.5 28.5H9.5V16.625H28.5V28.5ZM28.5 14.25H9.5V11.875H28.5V14.25Z" fill="white" />
+                    <path d="M20.425 19H18.05V21.375H20.425V19Z" fill="white" />
+                    <path d="M25.175 19H22.8V21.375H25.175V19Z" fill="white" />
+                    <path d="M20.425 23.75H18.05V26.125H20.425V23.75Z" fill="white" />
+                    <path d="M15.675 23.75H13.3V26.125H15.675V23.75Z" fill="white" />
                   </svg>
+
                 </span>
-                <p className=' mb-0 ps-3 '>Booking Date</p>
+                <p className=' mb-0 ps-3 ff_Anybody fw_700 fs_lg lightblack'>Booking Date</p>
               </div>
-              <div className=' pt-4'>
+              <div className=' pt-5'>
                 <div className=' d-flex justify-content-between align-items-center'>
-                  <input className=' input_bg w-75' type="text" placeholder='Enter Booking date' />
+                  <input className=' input_bg w-75 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='Enter Booking date' />
                   <span className=''>
                     <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clip-path="url(#clip0_1_10473)">
@@ -48,9 +55,50 @@ export const Calculate = () => {
                 </div>
                 <div className='calculate_hr mt-3'></div>
               </div>
+              <div className=' d-flex align-items-center pt-5'>
+                <span className='date_box '>
+                  <svg className=' m-1' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 5.5L22.875 5.375C21.875 4.375 20.375 3.75 19 3.75H11C9.625 3.75 8.25 4.375 7.125 5.375L7 5.5L4.875 8.5C4.125 9.625 3.75 10.875 3.75 12.125V21.25C3.75 24 6 26.25 8.75 26.25H21.25C24 26.25 26.25 24 26.25 21.25V12.125C26.25 10.875 25.875 9.625 25.125 8.5L23 5.5ZM6.875 10L8.875 7.125C9.5 6.5 10.25 6.25 11 6.25H18.875C19.625 6.25 20.375 6.5 21 7.125L23.125 10H17.875H12.125H6.875ZM16.625 12.5V15.625L15.5 15.125C15.375 15 15.125 15 15 15C14.875 15 14.625 15 14.5 15.125L13.375 15.625V12.5H16.625ZM23.75 21.25C23.75 22.625 22.625 23.75 21.25 23.75H8.75C7.375 23.75 6.25 22.625 6.25 21.25V12.5H10.875V17.5C10.875 17.875 11.125 18.375 11.5 18.5C11.875 18.75 12.25 18.75 12.625 18.625L15 17.625L17.375 18.625C17.5 18.75 17.75 18.75 17.875 18.75C18.125 18.75 18.375 18.625 18.5 18.5C18.875 18.25 19.125 17.875 19.125 17.5V12.5H23.75V21.25Z" fill="white" />
+                  </svg>
+
+
+                </span>
+                <p className=' mb-0 ps-3 ff_Anybody fw_700 fs_lg lightblack'>Type of Parcel</p>
+              </div>
+              <div className=' pt-5'>
+                <div className=' d-flex justify-content-between align-items-center'>
+                  <input className=' input_bg w-75 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='Select Parcel type' />
+                </div>
+                <div className='calculate_hr mt-3'></div>
+              </div>
+              <div className=' d-flex align-items-center pt-5'>
+                <span className='date_box'>
+                  <svg className=' m-1' width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 29.0625C14.6084 29.0591 14.2219 28.9739 13.8651 28.8125C13.5083 28.6511 13.1892 28.4169 12.9281 28.125C9.50625 24.375 3.75 17.2406 3.75 12.525C3.70741 9.49719 4.86824 6.57625 6.97757 4.40364C9.08689 2.23104 11.9723 0.984398 15 0.9375C18.0278 0.984398 20.9131 2.23104 23.0224 4.40364C25.1318 6.57625 26.2926 9.49719 26.25 12.525C26.25 17.2125 20.4938 24.3281 17.0719 28.1344C16.81 28.4246 16.4905 28.657 16.1337 28.8168C15.777 28.9766 15.3909 29.0603 15 29.0625ZM15 2.8125C12.4703 2.86179 10.0633 3.91163 8.30611 5.73207C6.54892 7.55252 5.58483 9.99516 5.625 12.525C5.625 15.4688 8.87813 20.8313 14.325 26.8781C14.4125 26.9689 14.5173 27.041 14.6333 27.0903C14.7493 27.1396 14.874 27.165 15 27.165C15.126 27.165 15.2507 27.1396 15.3667 27.0903C15.4827 27.041 15.5875 26.9689 15.675 26.8781C21.1219 20.8313 24.375 15.4688 24.375 12.525C24.4152 9.99516 23.4511 7.55252 21.6939 5.73207C19.9367 3.91163 17.5297 2.86179 15 2.8125Z" fill="white" />
+                    <path d="M15 17.8125C13.8875 17.8125 12.7999 17.4826 11.8749 16.8645C10.9499 16.2464 10.2289 15.3679 9.80318 14.3401C9.37744 13.3123 9.26604 12.1813 9.48309 11.0901C9.70013 9.99898 10.2359 8.9967 11.0225 8.21003C11.8092 7.42336 12.8115 6.88763 13.9026 6.67059C14.9938 6.45354 16.1248 6.56494 17.1526 6.99068C18.1804 7.41642 19.0589 8.13739 19.677 9.06242C20.2951 9.98745 20.625 11.075 20.625 12.1875C20.625 13.6793 20.0324 15.1101 18.9775 16.165C17.9226 17.2199 16.4918 17.8125 15 17.8125ZM15 8.4375C14.2583 8.4375 13.5333 8.65744 12.9166 9.06949C12.2999 9.48155 11.8193 10.0672 11.5355 10.7524C11.2516 11.4377 11.1774 12.1917 11.3221 12.9191C11.4668 13.6465 11.8239 14.3147 12.3484 14.8392C12.8728 15.3636 13.541 15.7208 14.2684 15.8654C14.9958 16.0101 15.7498 15.9359 16.4351 15.6521C17.1203 15.3682 17.706 14.8876 18.118 14.2709C18.5301 13.6542 18.75 12.9292 18.75 12.1875C18.75 11.1929 18.3549 10.2391 17.6517 9.53585C16.9484 8.83259 15.9946 8.4375 15 8.4375Z" fill="white" />
+                  </svg>
+                </span>
+                <p className=' mb-0 ps-3 ff_Anybody fw_700 fs_lg lightblack'>Destination</p>
+              </div>
+              <div className=' pt-4'>
+                <div className=' d-flex justify-content-between align-items-center'>
+                  <div>
+                    <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='To' />
+                    <div className=' calculate_hr1 pt-2 w-100 ps-3'>
+                    </div>
+                  </div>
+                  <div>
+                    <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='From' />
+                    <div className=' calculate_hr1 pt-2 w-100 ps-3'>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
             </div>
           </Col>
-        </Row>
+          </Row>
+        </div>
       </Container>
     </section>
   )
