@@ -2,13 +2,15 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from '../assets/img/png/logo.png';
 import Btn_green from './Btn_green';
+import nav_overflow_img from '../assets/img/png/hero_overflow_img.png';
 
 const Mynavbar = () => {
   return (
-    <nav className='py-4'>
+    <nav className='py-4 position-relative'>
+      <img className=' position-absolute nav_img z_index_-1' src={nav_overflow_img} alt="Image" />
       <Container>
         <div className=' d-flex align-items-center justify-content-between'>
-          <a href="#"><img src={logo} alt="logo" /></a>
+          <a href="#"><img className='logo_w_xs z_index_2' src={logo} alt="logo" /></a>
 
           <input className='d-none' type="checkbox" id="check" />
           <label htmlFor="check">
@@ -20,7 +22,7 @@ const Mynavbar = () => {
           </label>
 
           <ul className=' list-unstyled d-flex align-items-center mb-0 nav_left0'>
-            <li>
+            <li className='ps-lg-4'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Home</a>
             </li>
             <li className=' ps-lg-5 pt-4 pt-lg-0'>

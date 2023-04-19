@@ -31,6 +31,11 @@ nav ul li a:hover {
     -webkit-text-stroke: 1px;
 }
 
+.nav_img {
+    top: 0;
+    left: 0;
+}
+
 /* hero */
 
 .hero_input {
@@ -46,22 +51,168 @@ nav ul li a:hover {
 }
 
 .hero_btn {
-    background: #3CBD96;
+    background: var(--color-lightgreen);
     box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.25);
     border-radius: 10px;
     padding: 10px 65px;
 }
 
+.hero_img {
+    bottom: 0;
+    right: -70px;
+    height: 925px;
+    width: 957px;
+}
+
+.hero_h1_w {
+    max-width: 1000px;
+}
+
+.hero_p_w {
+    max-width: 700px;
+}
+
+.hero_yellow_star {
+    left: 55%;
+    top: 12%;
+}
+
+.hero_star_green {
+    left: 50%;
+    top: 53%;
+}
+
+/* logo_filter */
+.logo_filter:hover {
+    filter: grayscale(38%) sepia(32%) brightness(89%) hue-rotate(360deg) contrast(225%);
+    -webkit-filter: grayscale(38%) sepia(32%) brightness(89%) hue-rotate(360deg) contrast(225%);
+    -moz-filter: grayscale(38%) sepia(32%) brightness(89%) hue-rotate(360deg) contrast(225%);
+}
+
+.How_star_green {
+    right: 15%;
+    top: 20%;
+    z-index: -1;
+}
+.how_yellow_star{
+    bottom: 70px;
+    left: 0;
+}
+
+.how_fast_p_w {
+    max-width: 585px;
+}
+
+.how_fast_box {
+    transition: all 0.5s linear;
+}
 
 
+.Packing_box::after {
+    content: '';
+    position: absolute;
+    height: 276px;
+    top: 30px;
+    left: -20px;
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+}
 
+.Packing_box::before {
+    content: '';
+    position: absolute;
+    height: 276px;
+    top: 30px;
+    right: -20px;
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+}
+
+.Transportation_box::before {
+    content: '';
+    position: absolute;
+    height: 276px;
+    top: 30px;
+    right: -20px;
+    border-right: 2px dashed rgba(151, 87, 215, 0.4);
+}
+
+/* Specialties */
+.Specialties_box {
+    background: var(--color-white);
+    box-shadow: 0px -1px 15px rgba(60, 189, 150, 0.15);
+    border-radius: 20px;
+    padding: 82px 55px 75px 55px;
+    height: 100%;
+}
+
+/* van */
+.van_overflow_img {
+    right: 0;
+    top: -400px;
+}
+
+.van_overflow_img2 {
+    left: 0;
+    top: -60px;
+}
+
+@media (max-width:1440px) {
+
+    .Specialties_box {
+        padding: 60px 40px 50px 40px;
+    }
+
+    .hero_img {
+        height: 760px;
+        width: 760px;
+    }
+
+    .hero_h1_w {
+        max-width: 890px;
+    }
+
+    .hero_p_w {
+        max-width: 600px;
+    }
+
+    .hero_input {
+        max-width: 545px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .Specialties_box {
+        padding: 45px 25px 35px 25px;
+    }
+
+    .Packing_box::after {
+        border-right: none;
+    }
+
+    .Packing_box::before {
+        border-right: none;
+    }
+
+    .Transportation_box::before {
+        border-right: none;
+    }
+
+    .hero_img {
+        height: 590px;
+        width: 590px;
+    }
+
+    .hero_input {
+        max-width: 505px;
+    }
+}
 
 @media (max-width:992px) {
     nav ul {
         position: fixed;
         top: 0px;
         left: -100%;
-        background: #EBF6ED;
+        background: var(--color-lightgreen3);
         width: 100%;
         height: 100vh !important;
         transition: 0.9s;
@@ -74,5 +225,17 @@ nav ul li a:hover {
 
     #check:checked~.nav_left0 {
         left: 0;
+    }
+
+
+}
+
+@media (max-width:576px) {
+    .logo_w_xs {
+        width: 75% !important;
+    }
+
+    .Specialties_box {
+        padding: 30px 20px 25px 20px;
     }
 }
