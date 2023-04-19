@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* calculate section*/
+.calculate_box {
+    background: #E3F9E7;
+    border-radius: 46px;
+    height: 100%;
+    padding: 71px 117px;
+}
+
+.booking_box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(60, 189, 150, 0.22);
+    border-radius: 37px;
+    padding: 71px 71px;
+}
+
+.date_box {
+    background: #3CBD96;
+    border-radius: 3px;
+    padding: 13px 16px;
+}
+
+.input_bg {
+    border: none;
+    outline: none;
+}
+
+.calculate_hr {
+    border: 1px solid rgba(119, 126, 144, 0.3);
+}
+
+.calculate_hr1 {
+    border-bottom: 1px solid rgba(119, 126, 144, 0.3);
+}
+
+.man_img {
+    bottom: -50px;
+    left: 70px;
+}
+
+@media (max-width:1200px) {
+    .calculate_box {
+        padding: 50px 70px;
+    }
+}
