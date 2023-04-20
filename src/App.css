@@ -14,11 +14,9 @@
 }
 
 /* nav */
+
 .nav_line {
-    background: var(--color-lightgreen);
-    padding: 3px 18px;
-    margin-top: 3px;
-    border-radius: 5px;
+    color: var(--color-lightgreen);
     z-index: 6;
 }
 
@@ -57,11 +55,17 @@ nav ul li a:hover {
     padding: 10px 65px;
 }
 
+.hero_map {
+    max-width: 600px;
+    right: -50px;
+    top: -50px;
+}
+
 .hero_img {
     bottom: 0;
-    right: -70px;
-    height: 925px;
-    width: 957px;
+    right: -50px;
+    /* height: 925px;
+    width: 957px; */
 }
 
 .hero_h1_w {
@@ -94,7 +98,8 @@ nav ul li a:hover {
     top: 20%;
     z-index: -1;
 }
-.how_yellow_star{
+
+.how_yellow_star {
     bottom: 70px;
     left: 0;
 }
@@ -155,15 +160,17 @@ nav ul li a:hover {
     top: -60px;
 }
 
+@media (min-width:1200px) {
+    .hero_img {
+        height: 560px;
+        width: 560px;
+    }
+}
+
 @media (max-width:1440px) {
 
     .Specialties_box {
         padding: 60px 40px 50px 40px;
-    }
-
-    .hero_img {
-        height: 760px;
-        width: 760px;
     }
 
     .hero_h1_w {
@@ -210,21 +217,20 @@ nav ul li a:hover {
 @media (max-width:992px) {
     nav ul {
         position: fixed;
-        top: 0px;
+        top: 0;
         left: -100%;
+        top: -100%;
         background: var(--color-lightgreen3);
         width: 100%;
         height: 100vh !important;
         transition: 0.9s;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-        text-align: center;
-        z-index: 5;
+        z-index: 2;
     }
 
-    #check:checked~.nav_left0 {
+    nav ul.nav_left0 {
         left: 0;
+        top: 0;
     }
 
 

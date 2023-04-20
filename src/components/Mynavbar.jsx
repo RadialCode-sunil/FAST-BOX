@@ -1,27 +1,34 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from '../assets/img/png/logo.png';
 import Btn_green from './Btn_green';
 import nav_overflow_img from '../assets/img/png/hero_overflow_img.png';
+import { CgMenuOreos } from 'react-icons/cg';
+import { GiCrossMark } from 'react-icons/gi';
 
 const Mynavbar = () => {
+  const [first, setfirst] = useState(true)
+  function nav_togle() {
+    setfirst(!first)
+  }
+  if (!first) {
+    document.body.classList.add("overflow-hidden")
+  }
+  else {
+    document.body.classList.remove("overflow-hidden")
+  }
   return (
-    <nav className='py-4 position-relative'>
+    <nav className='py-4 position-relative '>
       <img className=' position-absolute nav_img z_index_-1' src={nav_overflow_img} alt="Image" />
       <Container>
         <div className=' d-flex align-items-center justify-content-between'>
           <a href="#"><img className='logo_w_xs z_index_2' src={logo} alt="logo" /></a>
 
-          <input className='d-none' type="checkbox" id="check" />
-          <label htmlFor="check">
-            <span className="d-flex flex-column d-lg-none">
-              <span className="nav_line"></span>
-              <span className="nav_line"></span>
-              <span className="nav_line"></span>
-            </span>
-          </label>
+          <div className=' d-lg-none'>
+            <h1 className='nav_line position-relative' onClick={nav_togle}>{first ? <CgMenuOreos /> : <GiCrossMark />}</h1>
+          </div>
 
-          <ul className=' list-unstyled d-flex align-items-center mb-0 nav_left0'>
+          <ul className={first ? 'list-unstyled d-flex align-items-center mb-0 ' : ' mb-0 list-unstyled nav_left0 align-items-center d-flex text-align  justify-content-center'}>
             <li className='ps-lg-4'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Home</a>
             </li>
