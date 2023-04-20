@@ -115,7 +115,13 @@
     right: -10px;
     top: 32px;
 }
-
+.input_txt{
+    border:none;
+    border-bottom:2px solid rgba(119, 126, 144, 0.3);
+}
+.footer_border{
+    border: 3px dashed rgba(119, 126, 144, 0.5);
+}
 @media (max-width:1400px) {
     .map_img {
         opacity: 0.5;
