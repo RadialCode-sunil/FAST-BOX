@@ -18,7 +18,7 @@ const Specialties = () => {
                     <Col xs={12} md={6} lg={4}>
                         <div className='Specialties_box'>
                             <div className=' d-flex'>
-                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4'>01</p>
+                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4 pe-3'>01</p>
                                 <div className=' ps-3'>
                                     <p className=' ff_Anybody fw_700 fs_lg lightblack'>
                                         Easy to order
@@ -33,9 +33,9 @@ const Specialties = () => {
                     <Col xs={12} md={6} lg={4} className='pt-4 pt-md-0'>
                         <div className='Specialties_box '>
                             <div className=' d-flex'>
-                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4'>02</p>
+                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4 pe-3'>02</p>
                                 <div className=' ps-3'>
-                                    <p className=' ff_Anybody fw_700 fs_lg lightblack text-nowrap'>
+                                    <p className=' ff_Anybody fw_700 fs_lg lightblack'>
                                         Cash on delivery
                                     </p>
                                     <p className=' ff_Red_Hat fw_400 fs_sm grey90'>
@@ -48,7 +48,7 @@ const Specialties = () => {
                     <Col xs={12} md={6} lg={4} className='pt-4 pt-lg-0'>
                         <div className='Specialties_box '>
                             <div className=' d-flex'>
-                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4'>03</p>
+                                <p className=' ff_Poppins fw_700 fs_3xl lightgreen4 pe-3'>03</p>
                                 <div className=' ps-3'>
                                     <p className=' ff_Anybody fw_700 fs_lg lightblack'>
                                         Live tracking

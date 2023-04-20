@@ -58,7 +58,7 @@ const How_Fast = () => {
                     </p>
                 </div>
 
-                <Slider {...settings} className=' pt-3 pt-lg-5'>
+                <Slider {...settings} className=' pt-3 pt-lg-5 mt-lg-4'>
                     <div className='px-3'>
                         <div className=' px-3 how_fast_box text-center d-flex flex-column align-items-center'>
                             <div className=''>
