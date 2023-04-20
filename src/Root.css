@@ -49,9 +49,6 @@
     --color-lightgreen2: #E2F5EF;
     --color-lightgreen3: #E3F9E7;
     --color-lightgreen4: #C1EADD;
-
-
-
 }
 
 /* color */
@@ -207,7 +204,7 @@
         --fs-3xl: 25px;
         --fs-2xl: 22px;
         --fs-xl: 20px;
-        --fs-lg: 18px;
+        --fs-lg: 12px;
         --fs-md: 16px;
         --fs-sm: 15px;
         --fs-ss: 12px;
