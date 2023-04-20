@@ -22,11 +22,11 @@ const Hero = () => {
                                 Largest and reliable courier service
                             </h1>
                             <div className='city_box  position-relative mt-4'>
-                                <div className='city_box2'>
-                                    <p className='ff_Anybody fw_700 fs_5xl darkgreen mb-0'>
-                                        in your city
-                                    </p>
-                                </div>
+
+                                <p className='ff_Anybody city_box2 position-relative custom_border fw_700 fs_5xl darkgreen mb-0'>
+                                    in your city
+                                </p>
+
                             </div>
                             <p className=' ff_Red_Hat fw_400 fs_xl grey90 pt-5 hero_p_w'>
                                 Duis aute irure dolor in reprehenderit in voluptate cillum dolore eu fugiat nulla pariatur.

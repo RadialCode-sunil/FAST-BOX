@@ -35,12 +35,11 @@ nav ul li a:hover {
 }
 
 /* hero */
-
-.city_box {
+.custom_border {
     background: #E3F9E7;
     border: 5px solid #3CBD96;
-    max-width: 570px;
-    padding: 21px;
+    display: inline;
+    padding: 21px 41px;
 }
 
 .city_box::after {
@@ -50,8 +49,8 @@ nav ul li a:hover {
     width: 22px;
     background: #FFFFFF;
     border: 3.5px solid #3CBD96;
-    left: -12px;
-    top: -12px;
+    left: -6px;
+    top: -22px;
 }
 
 .city_box::before {
@@ -61,8 +60,9 @@ nav ul li a:hover {
     width: 22px;
     background: #FFFFFF;
     border: 3.5px solid #3CBD96;
-    left: -12px;
-    bottom: -12px;
+    left: -6px;
+    bottom: -22px;
+    z-index: 1;
 }
 
 .city_box2::after {
@@ -138,6 +138,14 @@ nav ul li a:hover {
 }
 
 /* logo_filter */
+
+.logo_filter {
+    filter: grayscale(100%);
+}
+
+.logo_filter:hover {
+    filter: grayscale(0);
+}
 
 .How_star_green {
     right: 15%;
@@ -295,23 +303,22 @@ nav ul li a:hover {
         padding: 30px 20px 25px 20px;
     }
 
-    .city_box {
-        max-width: 250px;
-        padding: 9px;
+    .custom_border {
+        padding: 10px 20px;
     }
 
     .city_box::after {
         height: 15px;
         width: 15px;
-        left: -8px;
-        top: -10px;
+        left: -4px;
+        top: -13px;
     }
 
     .city_box::before {
         height: 15px;
         width: 15px;
-        left: -8px;
-        bottom: -10px;
+        left: -4px;
+        bottom: -14px;
     }
 
     .city_box2::after {
