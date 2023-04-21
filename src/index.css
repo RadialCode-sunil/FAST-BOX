@@ -8,7 +8,8 @@
     box-sizing: border-box;
 }
 
-/* calculate section*/ .calculate_box {
+/* calculate section*/
+.calculate_box {
     background: #E3F9E7;
     border-radius: 46px;
     height: 100%;
@@ -115,13 +116,16 @@
     right: -10px;
     top: 32px;
 }
-.input_txt{
-    border:none;
-    border-bottom:2px solid rgba(119, 126, 144, 0.3);
+
+.input_txt {
+    border: none;
+    border-bottom: 2px solid rgba(119, 126, 144, 0.3);
 }
-.footer_border{
+
+.footer_border {
     border: 3px dashed rgba(119, 126, 144, 0.5);
 }
+
 @media (max-width:1400px) {
     .map_img {
         opacity: 0.5;
@@ -131,6 +135,18 @@
 @media (max-width:1200px) {
     .calculate_box {
         padding: 50px 70px;
+    }
+
+    .quick_link::after {
+        border: none;
+    }
+
+    .quick_link::before {
+        border: none;
+    }
+
+    .quick_border::after {
+        border: none;
     }
 }
 
