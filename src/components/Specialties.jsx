@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Specialties = () => {
     return (
-        <section className=' py-lg-5'>
+        <section className=' py-3 py-lg-5'>
             <Container className=' py-lg-5'>
                 <div className='d-flex flex-column text-center text-lg-start flex-lg-row justify-content-center py-3 py-lg-5'>
                     <h2 className=' ff_Anybody fw_700 fs_4xl darkgreen'>

@@ -50,7 +50,7 @@ nav ul li a:hover {
     background: #FFFFFF;
     border: 3.5px solid #3CBD96;
     left: -6px;
-    top: -22px;
+    top: -15px;
 }
 
 .city_box::before {
@@ -61,7 +61,7 @@ nav ul li a:hover {
     background: #FFFFFF;
     border: 3.5px solid #3CBD96;
     left: -6px;
-    bottom: -22px;
+    bottom: -15px;
     z-index: 1;
 }
 
@@ -221,6 +221,18 @@ nav ul li a:hover {
     }
 }
 
+@media (max-width:1600px) {
+    .city_box::after {
+        left: -6px;
+        top: -21px;
+    }
+
+    .city_box::before {
+        left: -6px;
+        bottom: -21px;
+      
+    }
+}
 @media (max-width:1440px) {
 
     .Specialties_box {
