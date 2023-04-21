@@ -33,7 +33,7 @@ export const Calculate = () => {
                 </div>
                 <div className=' pt-5'>
                   <div className=' d-flex justify-content-between align-items-center'>
-                    <input className=' input_bg w-75 ff_Red_Hat fw_500 fs_sm grey90' type="date" placeholder='Enter Booking date' />
+                    <input className=' input_bg w-100 pe-2 ff_Red_Hat fw_500 fs_sm grey90'  placeholder='Enter Booking date' />
                     <span className=''>
                       <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_1_10473)">
@@ -66,7 +66,7 @@ export const Calculate = () => {
                 </div>
                 <div className=' pt-5'>
                   <div className=' d-flex justify-content-between align-items-center'>
-                    <input className=' input_bg w-75 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='Select Parcel type' />
+                    <input className=' input_bg w-100 pe-1 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='Select Parcel type' />
                   </div>
                   <div className='calculate_hr mt-3'></div>
                 </div>
@@ -80,14 +80,14 @@ export const Calculate = () => {
                   <p className=' mb-0 ps-3 ff_Anybody fw_700 fs_lg lightblack pt-3 pt-lg-0'>Destination</p>
                 </div>
                 <div className=' pt-4'>
-                  <div className=' d-flex justify-content-between align-items-center'>
+                  <div className=' d-flex flex-column flex-md-row justify-content-between align-items-center'>
                     <div>
-                      <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='To' />
+                      <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90 w-100' type="text" placeholder='To' />
                       <div className=' calculate_hr1 pt-2 w-100 ps-3'>
                       </div>
                     </div>
-                    <div>
-                      <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90' type="text" placeholder='From' />
+                    <div className=' mt-3 mt-md-0'>
+                      <input className=' input_bg w-50 ff_Red_Hat fw_500 fs_sm grey90 w-100' type="text" placeholder='From' />
                       <div className=' calculate_hr1 pt-2 w-100 ps-3'>
                       </div>
                     </div>
