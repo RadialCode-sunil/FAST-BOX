@@ -90,9 +90,7 @@
     z-index: -1;
 }
 
-/* .What_box_1:hover~.What_box_big {
-    opacity: 1;
-} */
+
 
 .quick_link::after {
     position: absolute;
@@ -124,6 +122,7 @@
 .input_txt {
     border: none;
     border-bottom: 2px solid rgba(119, 126, 144, 0.3);
+    outline: none;
 }
 
 .footer_border {
