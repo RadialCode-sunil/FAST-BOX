@@ -64,7 +64,7 @@ const How_Fast = () => {
                             <div className=''>
                                 <img src={Step_2} alt="Booking " />
                             </div>
-                            <p className=' ff_Poppins fw_600 fs_ss grey90 py-3'>Step 1</p>
+                            <p className=' ff_Poppins fw_600 fs_ss grey90 mt-2 py-3'>Step 1</p>
                             <p className=' ff_Anybody fw_700 fs_lg darkgreen'>Booking </p>
                             <p className=' ff_Red_Hat fw_400 fs_sm grey90'>
                                 Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -76,7 +76,7 @@ const How_Fast = () => {
                             <div className=''>
                                 <img src={Step_1} alt="Packing  " />
                             </div>
-                            <p className=' ff_Poppins fw_600 fs_ss grey90 py-3'>Step 2</p>
+                            <p className=' ff_Poppins fw_600 fs_ss grey90 mt-2 py-3'>Step 2</p>
                             <p className=' ff_Anybody fw_700 fs_lg darkgreen'>Packing  </p>
                             <p className=' ff_Red_Hat fw_400 fs_sm grey90'>
                                 Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -88,7 +88,7 @@ const How_Fast = () => {
                             <div className=''>
                                 <img src={Step_3} alt="Transportation   " />
                             </div>
-                            <p className=' ff_Poppins fw_600 fs_ss grey90 py-3'>Step 3</p>
+                            <p className=' ff_Poppins fw_600 fs_ss grey90 mt-2 py-3'>Step 3</p>
                             <p className=' ff_Anybody fw_700 fs_lg darkgreen'>Transportation  </p>
                             <p className=' ff_Red_Hat fw_400 fs_sm grey90'>
                                 Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -100,7 +100,7 @@ const How_Fast = () => {
                             <div className=''>
                                 <img src={Step_4} alt="Delivery    " />
                             </div>
-                            <p className=' ff_Poppins fw_600 fs_ss grey90 py-3'>Step 4</p>
+                            <p className=' ff_Poppins fw_600 fs_ss grey90 mt-2 py-3'>Step 4</p>
                             <p className=' ff_Anybody fw_700 fs_lg darkgreen'>Delivery  </p>
                             <p className=' ff_Red_Hat fw_400 fs_sm grey90'>
                                 Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

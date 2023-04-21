@@ -9,7 +9,7 @@ import hero_map from '../assets/img/png/hero_map.png';
 
 const Hero = () => {
     return (
-        <header className=' min-vh-100 d-flex flex-column position-relative overflow-hidden'>
+        <header className=' min-vh-100 hero_min_vh d-flex flex-column position-relative overflow-hidden'>
             <img className=' position-absolute hero_map end-0 top-0' src={hero_map} alt="Map" />
             <Mynavbar />
             <img className=' position-absolute hero_star_green' src={hero_star_green} alt="star" />

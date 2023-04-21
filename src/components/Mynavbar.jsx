@@ -32,31 +32,31 @@ const Mynavbar = () => {
             <li className='ps-lg-4'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Home</a>
             </li>
-            <li className=' ps-lg-5 pt-4 pt-lg-0'>
+            <li className=' ps-lg-3 ps-xl-5 pt-4 pt-lg-0'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Tracking</a>
             </li>
-            <li className=' ps-lg-5 pt-4 pt-lg-0'>
+            <li className=' ps-lg-3 ps-xl-5 pt-4 pt-lg-0'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Shipping</a>
             </li>
-            <li className=' ps-lg-5 pt-4 pt-lg-0'>
+            <li className=' ps-lg-3 ps-xl-5 pt-4 pt-lg-0'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Locations</a>
             </li>
-            <li className=' ps-lg-5 pt-4 pt-lg-0'>
+            <li className=' ps-lg-3 ps-xl-5 pt-4 pt-lg-0'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Support</a>
             </li>
             <li className='pt-4 d-lg-none'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Signin</a>
             </li>
             <li className='pt-4 d-lg-none'>
-              <Btn_green any_text='Register' />
+              <Btn_green btn_id='nav_btn' any_text='Register' />
             </li>
           </ul>
 
           <ul className=' list-unstyled mb-0 d-flex align-items-center'>
-            <li className='pe-4'>
+            <li className='pe-4 ps-lg-3'>
               <a href="#" className=' ff_Red_Hat fw_400 fs_md grey'>Signin</a>
             </li>
-            <Btn_green any_text='Register' />
+            <Btn_green btn_id='nav_btn'  any_text='Register' />
           </ul>
         </div>
       </Container>
