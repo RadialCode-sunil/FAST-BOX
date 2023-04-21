@@ -4,7 +4,7 @@ import Btn_green from './Btn_green'
 import world_map from '../assets/img/png/map_2.png'
 const Follow_section = () => {
     return (
-        <section className='position-relative overflow-hidden py-5'>
+        <section className='position-relative py-3 py-lg-5 my-lg-5 abs'>
             <Container>
                 <Row className=' pt-5'>
                     <Col xs={12} lg={7}>

@@ -1,16 +1,18 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
-import logo from '../assets/img/png/logo.png'
+import logo from '../assets/img/png/logo.png';
+import kalia from '../assets/img/png/footer_img.png';
 import Btn_green from './Btn_green';
 
 const Footer = () => {
     return (
-        <section>
+        <section className=' py-5 position-relative'>
+            <img className=' position-absolute footer_img' src={kalia} alt="kalia" />
             <Container>
                 <Row>
                     <Col xs={12} xl={4}>
                         <a href="#"><img src={logo} alt="logo" /></a>
-                        <p className='ff_Red_Hat fw_400 fs_sm grey90 pt-4'>
+                        <p className='ff_Red_Hat fw_400 fs_sm grey90 pt-4 footer_l_w'>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam..</p>
                     </Col>

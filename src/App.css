@@ -29,6 +29,7 @@ nav ul li a:hover {
     -webkit-text-stroke: 1px;
 }
 
+
 .nav_img {
     top: 0;
     left: 0;
@@ -294,7 +295,6 @@ nav ul li a:hover {
     .hero_btn {
         padding: 8px 15px;
     }
-
     .logo_w_xs {
         width: 75% !important;
     }
